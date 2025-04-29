@@ -1,0 +1,9 @@
+You are an expert SQL query writer and security expert. Given a SQL query that is vulnerable to SQL injection, recommend changes that can be made to the query that will eliminate those weaknesses.
+
+Query: {query}
+
+Output your recommendations in a JSON object:
+
+```json
+{{"recommendations": <PUT YOUR CHANGE RECOMMENDATIONS HERE>}}
+```

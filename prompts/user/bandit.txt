@@ -1,0 +1,3 @@
+For your reference, below is a list of vulnerable SQL queries and recommendations for how they can be fixed. Draw upon these recommendations when making changes to the provided query:
+
+{history}

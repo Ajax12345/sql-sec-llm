@@ -1,0 +1,11 @@
+You are an expert SQL query writer and security expert. Your job is to analyze a SQL query for SQL injection vulnerabilities and return a new, santized query. If the query is not vulnerable, simply return it as is.
+
+Query: {query}
+
+{bandit}
+
+Return the new, santized query as a JSON object:
+
+```json
+{{"query": <PUT THE SANITIZED QUERY HERE>}}
+```
